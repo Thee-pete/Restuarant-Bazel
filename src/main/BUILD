@@ -1,6 +1,17 @@
+load("@rules_jvm_external//:defs.bzl", "artifact")
 
-android_binary(
-    name = "app",
-    manifest = "AndroidManifest.xml",
-    deps = ["//src/main/java/com/pete/restaurant:greeter_activity",],
+android_library(
+    name = "my_lib",
+    srcs = glob(["java/com/pete/restaurant/*.java"]),
+    custom_package = "com.pete.restaurant",
+    manifest = "java/AndroidManifest.xml",
+    resource_files = glob(["res/**"]),
+    visibility = ["//src/test:__subpackages__"],
+    deps = [
+        artifact("androidx.appcompat:appcompat"),
+        artifact("androidx.annotation:annotation"),
+    ],
 )
+
+
+
