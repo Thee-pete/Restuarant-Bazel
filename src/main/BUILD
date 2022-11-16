@@ -1,4 +1,4 @@
-#load("@rules_jvm_external//:defs.bzl", "artifact")
+load("@rules_jvm_external//:defs.bzl", "artifact")
 
 android_library(
     name = "my_lib",
@@ -8,18 +8,12 @@ android_library(
     resource_files = glob(["res/**"]),
     visibility = ["//src/test:__subpackages__"],
     deps = [
-            "@maven//:androidx.appcompat:appcompat",
-            "@maven//:androidx.annotation:annotation",
-            "@maven//:androidx.test.ext:junit",
-            "@maven//:org.robolectric:robolectric",
-            "@maven//:org.assertj:assertj-core",
-            "@maven//:androidx.room:room-runtime",
-            "@maven//:androidx.room:room-compiler",
-            "@maven//:androidx.room:room-testing",
-             "@maven//:androidx.lifecycle:lifecycle-viewmodel",
-             "@maven//:androidx.lifecycle:lifecycle-livedata",
-             "@maven//:androidx.lifecycle:lifecycle-common-java8",
-             "@maven//:com.google.android.material:material",
+            ":androidx_lifecycle_lifecycle_compiler_library",
+            ":androidx_room_room_compiler_library",
+            artifact("androidx.appcompat:appcompat"),
+            artifact("androidx.annotation:annotation"),
+            artifact("com.google.android.material:material") ,
+            "@maven//:androidx_sqlite_sqlite",
     ],
 )
 android_binary(
@@ -45,7 +39,8 @@ java_library(
     neverlink = True,
     exports = [
         "@maven//:androidx_lifecycle_lifecycle_compiler",
-        "@maven//:androidx_lifecycle_lifecycle_extensions",
+        "@maven//:androidx_lifecycle_lifecycle_common_java8",
+        "@maven//:androidx_lifecycle_lifecycle_livedata",
         "@maven//:androidx_lifecycle_lifecycle_runtime",
         "@maven//:androidx_lifecycle_lifecycle_viewmodel",
     ],
@@ -65,10 +60,11 @@ java_library(
     ],
     neverlink = True,
     exports = [
+
         "@maven//:androidx_room_room_common",
         "@maven//:androidx_room_room_compiler",
         "@maven//:androidx_room_room_runtime",
-        "@maven//:androidx_room_room_rxjava2",
+        "@maven//:androidx_room_room_testing",
     ],
 )
 
