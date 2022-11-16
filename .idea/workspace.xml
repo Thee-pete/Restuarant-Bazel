@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-Restuarant" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-testlogs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_install.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/WORKSPACE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_install.json" beforeDir="false" afterPath="$PROJECT_DIR$/maven_install.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/Greeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +19,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BUILD" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/BUILD" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/maven_install.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/BUILD" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/BUILD" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WORKSPACE" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/BUILD" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -93,12 +77,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668615128171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added maven">
+      <created>1668629535640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668629535640</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added roboectric test">
+      <created>1668629588896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668629588896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added main build and activities build" />
     <MESSAGE value="Sample app working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sample app working" />
+    <MESSAGE value="added maven" />
+    <MESSAGE value="added roboectric test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added roboectric test" />
   </component>
 </project>

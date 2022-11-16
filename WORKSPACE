@@ -47,6 +47,14 @@ maven_install(
         "androidx.test.ext:junit:1.1.0",
         "org.robolectric:robolectric:4.9",
         "org.assertj:assertj-core:3.12.1",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.room:room-compiler:2.4.3",
+        "androidx.room:room-testing:2.4.3",
+        "androidx.lifecycle:lifecycle-viewmodel:2.3.1",
+        "androidx.lifecycle:lifecycle-livedata:2.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "com.google.android.material:material:1.0.0",
+
     ],
     repositories = [
         "https://maven.google.com",
