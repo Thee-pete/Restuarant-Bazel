@@ -5,22 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/WORKSPACE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_install.json" beforeDir="false" afterPath="$PROJECT_DIR$/maven_install.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/maven_install.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BUILD" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" root0="FORCE_HIGHLIGHTING" />
@@ -98,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668636928702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="success bazel build">
+      <created>1668641023359</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668641023359</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +123,7 @@
     <MESSAGE value="added maven" />
     <MESSAGE value="added roboectric test" />
     <MESSAGE value="added room and lifecycle dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="added room and lifecycle dependencies" />
+    <MESSAGE value="success bazel build" />
+    <option name="LAST_COMMIT_MESSAGE" value="success bazel build" />
   </component>
 </project>
