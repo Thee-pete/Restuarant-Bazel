@@ -28,9 +28,10 @@ public class Restaurant {
         return this.restaurant_name;
     }
     public String getLocation(){
-        return  this.location
+        return  this.location;
     }
     public String getRating(){
         return  this.rating;
     }
+
 }
