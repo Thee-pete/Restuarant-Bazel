@@ -6,11 +6,16 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName= "restaurant")
 public class Restaurant {
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     @NonNull
-    @ColumnInfo(name="restaurant")
+    @ColumnInfo(name="restaurant_name")
     private String restaurant_name;
+    @NonNull
+    @ColumnInfo(name="locationn")
     private String location;
+    @NonNull
+    @ColumnInfo(name="rating")
     private String rating;
 
     public Restaurant(@NonNull String restaurant_name, String location, String rating){
