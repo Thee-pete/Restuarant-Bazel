@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668666473769</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added repository">
+      <created>1668667750493</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668667750493</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added viewmodel">
+      <created>1668668003453</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668668003453</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +166,8 @@
     <MESSAGE value="modified restaurant model" />
     <MESSAGE value="added RestaurantDao" />
     <MESSAGE value="added Room database" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Room database" />
+    <MESSAGE value="added repository" />
+    <MESSAGE value="added viewmodel" />
+    <option name="LAST_COMMIT_MESSAGE" value="added viewmodel" />
   </component>
 </project>
