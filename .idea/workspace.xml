@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -114,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668641023359</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added restaurant model">
+      <created>1668665646591</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668665646591</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified restaurant model">
+      <created>1668665760228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668665760228</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +136,8 @@
     <MESSAGE value="added roboectric test" />
     <MESSAGE value="added room and lifecycle dependencies" />
     <MESSAGE value="success bazel build" />
-    <option name="LAST_COMMIT_MESSAGE" value="success bazel build" />
+    <MESSAGE value="added restaurant model" />
+    <MESSAGE value="modified restaurant model" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified restaurant model" />
   </component>
 </project>
