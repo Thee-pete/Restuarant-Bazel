@@ -18,10 +18,27 @@ public class RestaurantDatabase extends RoomDatabase{
                 if(INSTANCE == null){
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext()),
                     RestaurantDatabase.class, "restaurant_db")
-                    .build();
+                    .addCallback(roomDatabaseCallback)
+                            .build()
+
                 }
             }
         }
         return INSTANCE;
     }
+
+    private static RoomDatabase.Callback roomDatabaseCallback = new RoomDatabase.Callback() {
+        @Override
+        public void onCreate(@NonNull SupportSQLiteDatabase database) {
+            super.onCreate(database);
+            databaseWriteExecutor.execute(() -> {
+                RestaurantDao restaurantDao = INSTANCE.restaurantDao();
+                restaurantDao.deleteAll();
+
+                Restaurant restaurant = new Restaurant("TAO", "Nairobi","5 stars");
+                restaurantDao.insert(restaurant);
+            });
+        }
+    };
+
 }
