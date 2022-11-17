@@ -11,5 +11,5 @@ public interface RestaurantDao {
     void deleteAll();
 
     @Query("SELECT * FROM restaurant")
-    List<Restaurant> getAllRestaurants();
+    LiveData<List<Restaurant>> getAllRestaurants();
 }
