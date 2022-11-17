@@ -2,10 +2,24 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 android_sdk_repository(
     name = "androidsdk",
     api_level = 30,
+     build_tools_version = "30.0.2"
 )
 
-RULES_JVM_EXTERNAL_TAG = "4.2"
-RULES_JVM_EXTERNAL_SHA = "cd1a77b7b02e8e008439ca76fd34f5b07aecb8c752961f9640dea15e9e5ba1ca"
+http_archive(
+    name = "android_tools",
+    sha256 = "ed5290594244c2eeab41f0104519bcef51e27c699ff4b379fcbd25215270513e",
+    url = "https://mirror.bazel.build/bazel_android_tools/android_tools_pkg-0.23.0.tar.gz",
+)
+
+http_archive(
+    name = "rules_android",
+    urls = ["https://github.com/bazelbuild/rules_android/archive/v0.1.1.zip"],
+    sha256 = "cd06d15dd8bb59926e4d65f9003bfc20f9da4b2519985c27e190cddc8b7a7806",
+    strip_prefix = "rules_android-0.1.1",
+)
+
+RULES_JVM_EXTERNAL_TAG = "2.4"
+RULES_JVM_EXTERNAL_SHA = "2393f002b0a274055a4e803801cd078df90d1a8ac9f15748d1f803b97cfcdc9c"
 
 http_archive(
     name = "rules_jvm_external",
@@ -13,13 +27,6 @@ http_archive(
     sha256 = RULES_JVM_EXTERNAL_SHA,
     url = "https://github.com/bazelbuild/rules_jvm_external/archive/%s.zip" % RULES_JVM_EXTERNAL_TAG,
 )
-load("@rules_jvm_external//:repositories.bzl", "rules_jvm_external_deps")
-
-rules_jvm_external_deps()
-
-load("@rules_jvm_external//:setup.bzl", "rules_jvm_external_setup")
-
-rules_jvm_external_setup()
 
 
 
@@ -54,19 +61,15 @@ maven_install(
         "androidx.lifecycle:lifecycle-livedata:2.0.0",
         "androidx.lifecycle:lifecycle-common-java8:2.0.0",
         "com.google.android.material:material:1.0.0",
-        "androidx.lifecycle:lifecycle-compiler:2.0.0",
 
     ],
     repositories = [
         "https://maven.google.com",
+        "https://jcenter.bintray.com",
         "https://repo1.maven.org/maven2",
     ],
-     maven_install_json = "@//:maven_install.json",
+    fetch_sources = True,
 
 )
-
-load("@maven//:defs.bzl", "pinned_maven_install")
-
-pinned_maven_install()
 
 
