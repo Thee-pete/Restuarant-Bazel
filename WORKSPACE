@@ -2,13 +2,6 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 android_sdk_repository(
     name = "androidsdk",
     api_level = 30,
-     build_tools_version = "30.0.2"
-)
-
-http_archive(
-    name = "android_tools",
-    sha256 = "ed5290594244c2eeab41f0104519bcef51e27c699ff4b379fcbd25215270513e",
-    url = "https://mirror.bazel.build/bazel_android_tools/android_tools_pkg-0.23.0.tar.gz",
 )
 
 http_archive(
@@ -57,9 +50,9 @@ maven_install(
         "androidx.room:room-runtime:2.2.6",
         "androidx.room:room-compiler:2.2.6",
         "androidx.room:room-testing:2.2.6",
-        "androidx.lifecycle:lifecycle-viewmodel:2.0.0",
-        "androidx.lifecycle:lifecycle-livedata:2.0.0",
-        "androidx.lifecycle:lifecycle-common-java8:2.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata:2.2.0",
+        "androidx.lifecycle:lifecycle-common:2.2.0",
         "com.google.android.material:material:1.0.0",
 
     ],

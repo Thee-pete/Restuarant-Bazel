@@ -5,8 +5,8 @@ import android.content.Context;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {Restaurant.class}, version = 1, exportSchema = false)
-public class RestaurantDatabase extends RoomDatabase{
+//@Database(entities = {Restaurant.class}, version = 1, exportSchema = false)
+public class RestaurantDatabase {/*extends RoomDatabase{
     public abstract RestaurantDao restaurantDao();
 
     public static volatile RestaurantDatabase INSTANCE;
@@ -39,6 +39,6 @@ public class RestaurantDatabase extends RoomDatabase{
                 restaurantDao.insert(restaurant);
             });
         }
-    };
+    };*/
 
 }

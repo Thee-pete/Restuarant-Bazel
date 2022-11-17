@@ -5,7 +5,7 @@ import android.app.Application;
 import java.util.List;
 
 class RestaurantRepository {
-    private RestaurantDao restaurantDao;
+   /* private RestaurantDao restaurantDao;
     private LiveData<List<Restaurant>> restaurants;
 
     RestaurantRepository(Application application){
@@ -22,5 +22,5 @@ class RestaurantRepository {
         RestaurantDatabase.databaseWriteExecutor.execute(()->{
             restaurantDao.insert(restaurant);
         });
-    }
+    }*/
 }

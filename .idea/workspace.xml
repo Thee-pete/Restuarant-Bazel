@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae807727-4920-4e8b-a996-3a249782d59f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.bazelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/WORKSPACE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/src/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-Restuarant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-testlogs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_install.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/src/BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +41,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/maven_install.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BUILD" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDao.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantDatabase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantsAdapter.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivityViewModel.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/RestaurantViewHolder.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/pete/restaurant/MainActivityTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/BUILD" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WORKSPACE" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/BUILD" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BUILD" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bazel-Restuarant/external/androidsdk/sources/android-30/java/lang/ClassLoader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.bazelrc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/BUILD" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/MainActivity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pete/restaurant/Restaurant.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -199,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668670404924</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="modified WORKSPACE and BUILD">
+      <created>1668672998572</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668672998572</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +249,7 @@
     <MESSAGE value="added adapter" />
     <MESSAGE value="added local data" />
     <MESSAGE value="added observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added observer" />
+    <MESSAGE value="modified WORKSPACE and BUILD" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified WORKSPACE and BUILD" />
   </component>
 </project>

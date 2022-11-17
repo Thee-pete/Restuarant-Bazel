@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 
 
-public class RestaurantViewHolder extends  RecylerView.ViewHolder{
+public class RestaurantViewHolder{/* extends  RecylerView.ViewHolder{
 
     private final TextView restaurantName;
     private final TextView location;
@@ -27,5 +27,5 @@ public class RestaurantViewHolder extends  RecylerView.ViewHolder{
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.restaurant_item, parent, false);
         return new RestaurantViewHolder(view);
-    }
+    }*/
 }

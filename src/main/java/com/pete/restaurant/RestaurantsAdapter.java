@@ -3,7 +3,7 @@ package com.pete.restaurant;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 
-public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantViewHolder> {
+public class RestaurantsAdapter{ /* extends ListAdapter<Restaurant, RestaurantViewHolder> {
 
     @Override
     public RestaurantViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -16,5 +16,5 @@ public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantViewHo
         holder.bind(restaurant.getRestaurant_name());
         holder.bind(restaurant.getLocation());
         holder.bind(restaurant.getRating());
-    }
+    }*/
 }

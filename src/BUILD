@@ -16,9 +16,8 @@ android_library(
             artifact("androidx.annotation:annotation"),
             artifact("com.google.android.material:material") ,
             artifact("androidx.room:room-runtime"),
-            artifact("androidx.room:room-compile"),
+            artifact("androidx.room:room-compiler"),
             artifact("androidx.room:room-testing"),
-            artifact("androidx.lifecycle:lifecycle-common-java8"),
             "@maven//:androidx_sqlite_sqlite",
     ],
 )
@@ -26,7 +25,6 @@ android_binary(
     name = "app",
     custom_package = "com.pete.restaurant",
     manifest = "main/AndroidManifest.xml",
-    multidex = "native",
     deps = [":my_lib"],
 )
 

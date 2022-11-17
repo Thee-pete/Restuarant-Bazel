@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity {
 
-    private MainActivityViewModel mainActivityViewModel;
+   /* private MainActivityViewModel mainActivityViewModel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,5 +24,5 @@ public class MainActivity extends Activity {
 
 
 
-    }
+    }*/
 }

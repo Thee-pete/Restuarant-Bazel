@@ -1,12 +1,10 @@
 package com.pete.restaurant;
 
-import androidx.room.ColumnInfo;
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
 
-@Entity(tableName= "restaurant")
+
+//@Entity(tableName= "restaurant")
 public class Restaurant {
-    @PrimaryKey(autoGenerate = true)
+   /* @PrimaryKey(autoGenerate = true)
     private int id;
     @NonNull
     @ColumnInfo(name="restaurant_name")
@@ -32,6 +30,6 @@ public class Restaurant {
     }
     public String getRating(){
         return  this.rating;
-    }
+    }*/
 
 }
